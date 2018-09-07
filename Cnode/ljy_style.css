@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    font-size: 14px;
+}
+.header{
+    overflow: hidden;
+    background-color: #444444;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.h_left{
+    float: left;
+    padding: 5px 0 0 60px;
+}
+.h_left .search{
+    height: 27px;
+    width: 250px;
+    vertical-align: top;
+    margin-top: 5px;
+    background: url("components/img/搜索.png") no-repeat #888888;
+    background-size: 18px;
+    border-radius: 15px;
+    border: 0;
+    background-position: 8px 5px;
+    margin-left: 10px;
+    outline:none;
+}
+.search:hover{
+    background-color: #fff;
+}
+.h_right{
+    float: right;
+    padding: 15px 60px 15px 0;
+}
+.h_right a{
+    color:#cccccc;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgba(116, 116, 116, 0.92);
+}
+/*<!--包裹整个组件的DOM-->*/
+body{
+    overflow-x: hidden;
+    background-color: #cccccc;
+    position: relative;
+}
+#ljyApp{
+    margin-top: 15px;
+    margin-left: 50px;
+    overflow: hidden;
+}
+#ljyApp .ljy_left{
+    width: 870px;
+    float: left;
+}
+#ljyApp .ljy_right{
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    width: 300px;
+}
+/*<!--组件一的-->*/
+
+/*第一个组件的顶部*/
+.all{
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+.all .ljy_header{
+    padding: 10px;
+    font-size: 14px;
+    background-color: #f6f6f6;
+    border-radius: 3px 3px 0 0;
+    border-bottom:1px solid lightgrey;
+}
+.all .ljy_breadcrumb{
+}
+.all .ljy_breadcrumb>li{
+    text-shadow: none;
+    display: inline-block;
+}
+.all .ljy_breadcrumb>li a{
+    color: #80bd01;
+}
+.all .ljy_breadcrumb>li .ljy_divider{
+    padding: 0 5px;
+    color: #ccc;
+}
+/*第一个组件的信息页*/
+.all .ljy_userinfo{
+    border-radius: 0 0 3px 3px;
+    margin: 15px;
+    background-color: white;
+    color: #9a9a9a;
+}
+.all .ljy_userinfo div{
+    margin-top: 10px;
+}
+.all .ljy_userinfo .ljy_user_avatar img{
+    vertical-align: middle;
+    border: 0;
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+}
+.all .ljy_userinfo .ljy_user_profile{
+    font-size: 14px;
+    color: black;
+}
+.all .ljy_userinfo .ljy_col_fade{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.ljy_topics{
+    background-color: white;
+    margin-top: 15px;
+    height: 805px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+.ljy_header{
+    padding: 10px;
+    background-color: #f6f6f6;
+    border-radius: 3px 3px 0 0;
+    border: 1px solid lightgrey;
+}
+.ljy_header span{
+    color: #444;
+    font-size: 14px;
+}
+#wrapper{
+    height: 50px;
+    border-bottom: 1px dotted lightgray;
+}
+#wrapper .left{
+    width: 100px;
+    float: left;
+}
+#wrapper :hover{
+    background-color: #ebebeb;
+}
+#wrapper #wrap_all{
+    height: 50px;
+    border-bottom: 1px dotted lightgray;
+    vertical-align: top;
+    line-height: 50px;
+    margin-left: 10px;
+    overflow: hidden;
+    position: relative;
+}
+#wrapper .left img{
+    display: inline-block;
+    width:35px;
+    height:35px;
+    border-radius: 8px;
+    position: absolute;
+    top:7px;
+}
+#wrapper  .left .count{
+    font-size: 8px;
+    position: absolute;
+    left: 40px;
+}
+#wrapper  #img{
+    display: inline-block;
+    width:15px;
+    height:15px;
+    border-radius: 8px;
+    position: absolute;
+    top:20px;
+    right:45px;
+}
+#wrapper #wrap_all .title{
+    position: absolute;
+    left: 100px;
+    width: 500px;
+    color: #4e64a6;
+}
+#wrap_all .title:hover{
+    text-underline:deepskyblue;
+    color: #3c025f;
+}
+
+.ljy-replies{
+    background-color: white;
+    margin-top: 15px;
+    height:305px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+.ljy-header{
+    padding: 10px;
+    background-color: #f6f6f6;
+    border-radius: 3px 3px 0 0;
+    border: 1px solid lightgrey;
+}
+.ljy-header span{
+    color: #444;
+    font-size: 14px;
+}
+#wrapper{
+    width: 800px;
+    height: 50px;
+    border-bottom: 1px dotted lightgray;
+}
+#wrapper .left{
+    width: 100px;
+    float: left;
+}
+#wrapper :hover{
+    background-color: #ebebeb;
+}
+#wrapper #wrap-all{
+    height: 50px;
+    border-bottom: 1px dotted lightgray;
+    vertical-align: top;
+    line-height: 50px;
+    margin-left: 10px;
+    overflow: hidden;
+    position: relative;
+}
+#wrapper .left img{
+    display: inline-block;
+    width:35px;
+    height:35px;
+    border-radius: 8px;
+    position: absolute;
+    top:7px;
+}
+#wrapper  .left .count{
+    font-size: 8px;
+    position: absolute;
+    left: 40px;
+}
+#wrapper  #img{
+    display: inline-block;
+    width:15px;
+    height:15px;
+    border-radius: 8px;
+    position: absolute;
+    top:20px;
+    right:45px;
+}
+#wrapper #wrap-all .title{
+    position: absolute;
+    left: 100px;
+    width: 500px;
+    color: #4e64a6;
+}
+#wrapper #wrap-all .title:hover{
+    text-underline:deepskyblue;
+    color: #3c025f;
+}
+
+
+
+/*右边组件的顶部*/
+.right_all{
+    background-color: white;
+    margin-right: 50px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+.right_all .ljy_right_header{
+    padding: 10px;
+    font-size: 14px;
+    background-color: #f6f6f6;
+    border-radius: 3px 3px 0 0;
+    border-bottom:1px solid lightgrey;
+}
+.right_all .ljy_right_header a{
+    color: #80bd01;
+}
+/*右边组件的信息页*/
+.right_all .ljy_right_userinfo{
+    border-radius: 0 0 3px 3px;
+    margin: 15px;
+    background-color: white;
+    color: #9a9a9a;
+}
+.right_all .ljy_right_userinfo div{
+    margin-top: 10px;
+}
+.right_all .ljy_right_userinfo .ljy_right_user_avatar img{
+    vertical-align: middle;
+    border: 0;
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+}
+.right_all .ljy_right_userinfo .ljy_right_user_profile{
+    font-size: 14px;
+    color: black;
+}
+.right_all .ljy_right_userinfo .ljy_right_col_fade{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.ljy_pic{
+    margin-top: 15px;
+    background-color: white;
+    margin-right: 50px;
+    height: 300px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+.ljy_pic img{
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left:15px;
+    width: 220px;
+    height: 60px;
+
+}
+.ljy-pic{
+    margin-top: 15px;
+    background-color: white;
+    margin-right: 50px;
+    height: 350px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+.ljy-pic .ljy_pic_title{
+    padding: 10px;
+    background-color: #f6f6f6;
+    border-radius: 3px 3px 0 0;
+    border: 1px solid lightgrey;
+}
+.ljy-pic img{
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left:15px;
+    width: 220px;
+    height: 60px;
+
+}
+
+.ljy_or{
+    margin-top: 15px;
+    background-color: white;
+    margin-right: 50px;
+    height: 300px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+.ljy_or .ljy_or_title{
+    padding: 10px;
+    background-color: #f6f6f6;
+    border-radius: 3px 3px 0 0;
+    border: 1px solid lightgrey;
+}
+.ljy_or img{
+    margin-left: 28px;
+    margin-top: 30px;
+}
+
+#footer{
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: white;
+}
+#footer_main{
+    margin-left: 50px;
+}
+.col_fade p{
+    margin-top:10px;
+    margin-bottom:10px;
+    color: #9f9f9f;
+    line-height: 20px;
+    vertical-align: bottom;
+}

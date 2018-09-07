@@ -1,0 +1,114 @@
+html{
+    min-width: 1200px;
+}
+body{
+    background-color: gainsboro;
+    min-width: 1200px;
+}
+.h-b{
+    background-color: rgba(76, 76, 76, 0.97);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 15px;
+}
+.h-b-img{
+    width: 120px;
+    height: 60px;
+    vertical-align: top;
+
+}
+.h-b-di-in{
+
+    margin-left: 15px;
+}
+.h-b-di{
+    display: inline-block;
+}
+.h-b-div{
+    display: inline-block;
+    float: right;
+    margin-right: 30px;
+}
+.h-b-div>div{
+    display: inline-block;
+    margin-right: 40px;
+}
+.z-w{
+    background-color: white;
+    width: 60%;
+    margin-left:5%;
+    display: inline-block;
+    padding: 15px;
+}
+.zuz{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left:2%;
+}
+.zu_di>div{
+    background-color: white;
+    vertical-align: top;
+    width: 100%;
+    margin-bottom: 7%;
+    margin-left:2%;
+}
+.zu-h{
+    background-color: #f5f5f5;
+    padding: 15px;
+}
+.zu-img{
+    width: 80px;
+    height: 80px;
+}
+.zu-di{
+    padding: 20px;
+}
+.zu-di-name{
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: top;
+    margin-top: 30px;
+    color: #c2c2c2;
+    margin-left: 20px;
+}
+.zu-di-ji{
+    margin: 10px 0;
+}
+.zu-di-wei{
+    margin: 10px 0;
+}
+.pin{
+    background-color: white;
+    width: 60%;
+    margin-left:5%;
+    display: inline-block;
+    padding: 25px;
+}
+.pin>div{
+    border-bottom: 1px solid #c9c9c9;
+    margin: 15px 0;
+}
+.p-img{
+    width: 40px;
+    height: 40px;
+}
+.p-sp{
+    vertical-align: top;
+    line-height: 40px;
+    font-weight: 800;
+    color: #aeaeae;
+    margin-left: 25px;
+}
+.p_div>div>p>img{
+    width: 80%;
+}
+.p_div>div>pre{
+    width:100%;
+    overflow: hidden;
+}
+.zu_di>div{
+    margin-top: 20px;
+}
